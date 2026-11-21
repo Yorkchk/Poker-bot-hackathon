@@ -1,0 +1,2 @@
+# Store the entry's data files byte for byte (no line-ending conversion): data/MANIFEST.json lists their hashes
+my_bots/all_in_stars/data/** -text

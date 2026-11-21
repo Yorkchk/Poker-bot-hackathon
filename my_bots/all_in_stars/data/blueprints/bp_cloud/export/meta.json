@@ -1,0 +1,119 @@
+{
+  "name": "bp_cloud",
+  "config": {
+    "name": "bp_main",
+    "game": {
+      "small_blind": 50,
+      "big_blind": 100,
+      "stack": 20000
+    },
+    "buckets": {
+      "preflop": 169,
+      "flop": 1200,
+      "turn": 900,
+      "river": 400,
+      "set": "buckets_f1200_t900_r400"
+    },
+    "abstraction": {
+      "open_bb": [
+        2.0,
+        2.5,
+        3.0,
+        4.0
+      ],
+      "limp_raise_bb": [
+        3.0,
+        4.5
+      ],
+      "reraise_x": [
+        [
+          2.5,
+          3.2,
+          4.0
+        ],
+        [
+          2.2,
+          2.8
+        ],
+        [
+          2.0
+        ]
+      ],
+      "preflop_max_raises": 5,
+      "allin": true,
+      "allin_snap": 0.6,
+      "flop": {
+        "bet": [
+          0.25,
+          0.5,
+          0.75,
+          1.25
+        ],
+        "raises": [
+          [
+            0.75,
+            1.5
+          ]
+        ],
+        "max_raises": 3
+      },
+      "turn": {
+        "bet": [
+          0.33,
+          0.66,
+          1.0,
+          1.5
+        ],
+        "raises": [
+          [
+            0.75,
+            1.5
+          ]
+        ],
+        "max_raises": 3
+      },
+      "river": {
+        "bet": [
+          0.33,
+          0.66,
+          1.0,
+          1.5
+        ],
+        "raises": [
+          [
+            0.75,
+            1.5
+          ]
+        ],
+        "max_raises": 3
+      }
+    },
+    "training": {
+      "avg_streets": [
+        0,
+        1,
+        2
+      ],
+      "threads": 6,
+      "seed": 2026,
+      "batch": 200000,
+      "discount_interval_iters": 25000000,
+      "discount_until_iters": 1000000000,
+      "prune_after_iters": 500000000,
+      "prune_prob": 0.95,
+      "prune_thresh": -300000000.0,
+      "regret_floor": -310000000.0,
+      "checkpoint_hours": 6.0,
+      "max_regret_gb": 1.5
+    }
+  },
+  "state": {
+    "it": 6743800000,
+    "n_discounts": 40,
+    "seconds": 39302.90502626464,
+    "saved": "2026-11-21 15:39:32",
+    "config_hash": "15b1a33d1a",
+    "name": "bp_cloud"
+  },
+  "exported": "2026-11-21 15:40:14"
+}

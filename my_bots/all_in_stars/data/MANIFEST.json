@@ -1,0 +1,71 @@
+{
+  "built": "2026-11-21 12:14:52",
+  "pokerbot_commit": "56b7534",
+  "blueprint": "bp_cloud",
+  "blueprint_iterations": 6743800000,
+  "blueprint_saved": "2026-11-21 15:39:32",
+  "agent": {
+    "blueprint": "bp_cloud",
+    "exploit": true,
+    "river": true,
+    "river_time": 0.8,
+    "river_iters": 200,
+    "exploit_min_obs": 12
+  },
+  "files": {
+    "data/blueprints/bp_cloud/export/meta.json": {
+      "bytes": 2179,
+      "sha1": "c9de005f8e9a4a729d25d7486cd0706de893fe64"
+    },
+    "data/blueprints/bp_cloud/export/strategy.npz": {
+      "bytes": 61934052,
+      "sha1": "b8ef3218ce35b978607b69742b0c38e09d47b475"
+    },
+    "data/blueprints/bp_cloud/export/tree.npz": {
+      "bytes": 1356232,
+      "sha1": "608bad54452e3fa68627ce4ced63151a521fe242"
+    },
+    "data/tables/buckets_f1200_t900_r400/buckets_meta.json": {
+      "bytes": 9596,
+      "sha1": "12872026f4c45adde467e847a43e38d1ba2c389d"
+    },
+    "data/tables/buckets_f1200_t900_r400/flop_bucket.npz": {
+      "bytes": 735218,
+      "sha1": "08f355fcabdfdd705f7192cbe80ebf39b844d02c"
+    },
+    "data/tables/buckets_f1200_t900_r400/turn_bucket.npz": {
+      "bytes": 4137545,
+      "sha1": "deab0efef02552306711f2ecf5c7850bcc27f2a9"
+    },
+    "data/tables/flop_canon.npz": {
+      "bytes": 23964,
+      "sha1": "b8346641ef3f0edcf8f43bb51fc9f698949b4067"
+    },
+    "data/tables/preflop_class_vs_class.npy": {
+      "bytes": 228616,
+      "sha1": "98a024c560e210c2ca84484e6ecd3ff53a7313ed"
+    },
+    "data/tables/preflop_vs_random.npy": {
+      "bytes": 1480,
+      "sha1": "1d1f794df290bf7457eb747c86d99c70cff2dc43"
+    },
+    "data/tables/pushfold.json": {
+      "bytes": 6042,
+      "sha1": "709fd7e2b547ad27ea19d6c741e0cf14705015cc"
+    },
+    "data/tables/rank_values.npy": {
+      "bytes": 38720,
+      "sha1": "2ae454a4ba4dd199a43973060b97254e06c1e4de"
+    },
+    "data/tables/turn_canon.npz": {
+      "bytes": 348361,
+      "sha1": "f64f4f13edd95a90ad466062ccf85a01e1e6b5aa"
+    },
+    "bot.py": {
+      "bytes": 130187,
+      "sha1": "178757b35fe9190a6038f4852e7f133305ce58dd"
+    }
+  },
+  "data_bytes": 68822005,
+  "total_bytes": 68952192
+}
